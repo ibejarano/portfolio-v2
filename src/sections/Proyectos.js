@@ -28,7 +28,7 @@ const Background = () => (
     />
 
     <Triangle
-      color="primaryDark"
+      color="green"
       height={['25vh', '40vh']}
       width={['75vw', '60vw']}
       invertX
@@ -36,7 +36,7 @@ const Background = () => (
     />
 
     <Triangle
-      color="backgroundDark"
+      color="lightblue"
       height={['25vh', '20vh']}
       width={['100vw', '100vw']}
       invertY
@@ -176,8 +176,8 @@ Project.propTypes = {
 };
 
 const Projects = () => (
-  <Section.Container id="projects" Background={Background}>
-    <Section.Header name="Projects" icon="💻" label="notebook" />
+  <Section.Container id="proyectos" Background={Background}>
+    <Section.Header name="Proyectos" icon="💻" label="notebook" />
     <StaticQuery
       query={graphql`
         query ProjectsQuery {
